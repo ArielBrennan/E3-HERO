@@ -29,6 +29,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: initial;
+    background-attachment: fixed;
 }
 #inicio {
     background-color: rgba(255, 255, 255, .45);
@@ -171,6 +172,11 @@ body {
     opacity: 85%;
     padding: 30px;
 }
+
+.dos, .tres, .seis, .siete, .diez {
+    opacity: 100%;
+}
+
 #contacto {
     display: flex;
     justify-content: center;
