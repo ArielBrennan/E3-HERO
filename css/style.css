@@ -83,6 +83,7 @@ body {
     font-family: 'start';
     height: 100vh;
     overflow: hidden;
+    
 }
 .perfil-data div {
     width: 35%;
@@ -93,6 +94,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    padding: 30px;
 }
 .perfil h1{
     font-weight: bold;
@@ -187,8 +189,9 @@ footer a {
 footer a img{
     width: 64px;
     height: 64px;
-    
 }
 footer img:hover {
-
+    border: 1px solid rgba(255, 255, 255, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    border-radius: 10px;
 }
