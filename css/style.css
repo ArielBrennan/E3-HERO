@@ -146,6 +146,7 @@ body {
 }
 .dos, .tres, .seis, .siete, .diez {
     opacity: 100%;
+    text-align: center;
 }
 #contacto {
     display: flex;
