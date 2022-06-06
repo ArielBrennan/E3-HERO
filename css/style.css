@@ -4,10 +4,7 @@
     margin: 0;
     scroll-behavior:smooth;
     color: whitesmoke;
-}
-@font-face {
-    font-family: 'code';
-    src: url(/font/PressStart2P-Regular.ttf);
+    font-family: 'start';
 }
 @font-face {
     font-family: 'start';
@@ -22,7 +19,6 @@
     filter: blur(0px);
     z-index: -1;
 } */
-
 body {
     background-image: url(/img/pexels-luis-gomes-546819\ \(1\).jpg);
     background-color: #636564;
@@ -54,22 +50,10 @@ body {
     color: whitesmoke;
     padding: 50px;
     font-size: 1.5em;
-    font-family: 'start';
-    
-
 }
 .portfolio-nav ul li a:hover {
     text-decoration: underline;
-    color: red;
-}
-.portfolio-img {
-    width: 300px;
-    border-radius: 20px;
-    mix-blend-mode: hard-light;
-    border: 1px solid rgba(0, 0, 0, .25);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
-    backdrop-filter: blur(15px);
-    
+    color: blue;
 }
 .perfil-data {
     display: flex;
@@ -80,14 +64,9 @@ body {
     border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     padding-top: 150px;
-    gap: 50px;
-    font-family: 'start';
     height: 100vh;
-    overflow: hidden;
-    
 }
 .perfil-data div {
-    width: 35%;
     border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     border-radius: 20px;
@@ -95,7 +74,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 30px;
+    padding: 40px;
+    width: 45%;
 }
 .perfil h1{
     font-weight: bold;
@@ -116,12 +96,8 @@ body {
     border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
 }
-
 .perfil a:hover {
     color: red;
-}
-.perfil p {
-    font-size: 1em;
 }
 @keyframes type {
     from { width: 0 }
@@ -143,11 +119,7 @@ body {
     align-items: center;
 }
 #trabajos h2 {
-    font-family: 'start';
     padding-top: 150px;
-}
-#trabajos p {
-    font-family: 'start';
 }
 .trabajos-container {
     display: grid;
@@ -172,11 +144,9 @@ body {
     opacity: 85%;
     padding: 30px;
 }
-
 .dos, .tres, .seis, .siete, .diez {
     opacity: 100%;
 }
-
 #contacto {
     display: flex;
     justify-content: center;
@@ -187,7 +157,6 @@ body {
     background-color: rgba(255, 255, 255, .45);
     backdrop-filter: blur(30px) saturate(200%);   
 }
-
 footer a {
     text-decoration: none;
     margin-right: 30px;    
@@ -195,6 +164,7 @@ footer a {
 footer a img{
     width: 64px;
     height: 64px;
+    padding: 2px;
 }
 footer img:hover {
     border: 1px solid rgba(255, 255, 255, .25);
