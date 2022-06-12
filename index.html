@@ -5,21 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>EIII | NUCBA</title>
+    <title>EIV | NUCBA</title>
 </head>
 <body>
-    <!-- <video autoplay muted loop class="video">
-        <source src="/video/videoAPrueba.mp4" type="video/webm">
-    </video> -->
-    <header id="inicio">
+
+    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+    <label id="menu-hamburguesa" for="hamburger-input">
+        <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#perfil">Inicio</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
+                <li><a href="#herramientas">Herramientas</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </label>
+
+<div class="overlay"></div>
+
+<header id="inicio">
         <nav class="portfolio-nav">
             <ul>
                 <li><a href="#perfil">Inicio</a></li>
                 <li><a href="#trabajos">Trabajos</a></li>
+                <li><a href="#herramientas">Herramientas</a></li>
+                <li><a href="#metodologia">Metodología</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+</header>
+
     <main class="perfil" id="perfil">
         <section class="perfil-data">
             <div>
@@ -29,26 +46,93 @@
                 <a href="">CV</a>
             </div>
         </section>
+
         <section id="trabajos">
             <h2>Algunos de mis trabajos: </h2>
             <div class="trabajos-container">
-                <div class="trabajos uno"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis animi quidem mollitia, in, magni repudiandae nostrum praesentium eius ab officia rem doloribus earum sunt voluptates repellendus sequi at. Quos commodi repellendus, alias laborum laudantium ex eligendi fugiat explicabo. Libero maxime, deleniti saepe iste ullam excepturi laborum quo.</p></div>
-                <div class="trabajos dos"><img src="https://picsum.photos/420/420" alt=""></div>
-                <div class="trabajos tres"><img src="https://picsum.photos/420/420" alt=""></div>
-                <div class="trabajos cuatro"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat at, expedita vel quaerat a vitae hic recusandae sit officiis ipsum accusamus itaque mollitia consequuntur sunt facilis. Temporibus aut fugiat illo, quas sed esse quod repellendus itaque voluptatibus nisi soluta atque nulla provident ipsa. Suscipit dignissimos accusamus nobis animi sapiente consequuntur.</p></div>
-                <div class="trabajos cinco"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat natus nobis nam quasi deleniti cupiditate neque ullam quos minima, incidunt obcaecati doloribus tempore vitae id dicta fugit excepturi. Est odit ipsam maiores consectetur totam? Fuga nesciunt ullam nobis autem maiores odio necessitatibus voluptate, soluta consequatur modi dolorum asperiores facere?</p></div>
-                <div class="trabajos seis"><img src="https://picsum.photos/420/420" alt=""></div>
-                <div class="trabajos siete"><img src="https://picsum.photos/420/420" alt=""></div>
-                <div class="trabajos ocho"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, itaque? Minima accusamus quae obcaecati ut atque velit et ducimus veniam quidem, vel cupiditate modi saepe architecto nam sapiente perferendis blanditiis provident, ex tenetur voluptas unde? Praesentium illum hic vero. Iusto quis illo iure veritatis doloribus nihil iste blanditiis, quaerat repellat.</p></div>
-                <div class="trabajos nueve"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, itaque? Minima accusamus quae obcaecati ut atque velit et ducimus veniam quidem, vel cupiditate modi saepe architecto nam sapiente perferendis blanditiis provident, ex tenetur voluptas unde? Praesentium illum hic vero. Iusto quis illo iure veritatis doloribus nihil iste blanditiis, quaerat repellat.</p></div>
-                <div class="trabajos diez"><img src="https://picsum.photos/420/420" alt=""></div>
+                <div class="trabajos"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis animi quidem mollitia, in, magni repudiandae nostrum praesentium eius ab officia rem doloribus earum sunt voluptates repellendus sequi at. Quos commodi repellendus, alias laborum laudantium ex eligendi fugiat explicabo. Libero maxime, deleniti saepe iste ullam excepturi laborum quo.</p></div>
+                <div class="trabajos oscuro"><img src="https://picsum.photos/420/420" alt=""></div>
+                <div class="trabajos oscuro"><img src="https://picsum.photos/420/420" alt=""></div>
+                <div class="trabajos"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat at, expedita vel quaerat a vitae hic recusandae sit officiis ipsum accusamus itaque mollitia consequuntur sunt facilis. Temporibus aut fugiat illo, quas sed esse quod repellendus itaque voluptatibus nisi soluta atque nulla provident ipsa. Suscipit dignissimos accusamus nobis animi sapiente consequuntur.</p></div>
+                <div class="trabajos"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod placeat natus nobis nam quasi deleniti cupiditate neque ullam quos minima, incidunt obcaecati doloribus tempore vitae id dicta fugit excepturi. Est odit ipsam maiores consectetur totam? Fuga nesciunt ullam nobis autem maiores odio necessitatibus voluptate, soluta consequatur modi dolorum asperiores facere?</p></div>
+                <div class="trabajos oscuro"><img src="https://picsum.photos/420/420" alt=""></div>
+                <div class="trabajos oscuro"><img src="https://picsum.photos/420/420" alt=""></div>
+                <div class="trabajos"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, itaque? Minima accusamus quae obcaecati ut atque velit et ducimus veniam quidem, vel cupiditate modi saepe architecto nam sapiente perferendis blanditiis provident, ex tenetur voluptas unde? Praesentium illum hic vero. Iusto quis illo iure veritatis doloribus nihil iste blanditiis, quaerat repellat.</p></div>
+                <div class="trabajos"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, itaque? Minima accusamus quae obcaecati ut atque velit et ducimus veniam quidem, vel cupiditate modi saepe architecto nam sapiente perferendis blanditiis provident, ex tenetur voluptas unde? Praesentium illum hic vero. Iusto quis illo iure veritatis doloribus nihil iste blanditiis, quaerat repellat.</p></div>
+                <div class="trabajos oscuro"><img src="https://picsum.photos/420/420" alt=""></div>
             </div>
         </section>
+
+        <section id="herramientas">
+            <h2>Herramientas:</h2>
+            <div class="herramientas-container">
+                <div>
+                    <img src="./img/html-5.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum totam molestias tenetur itaque quo ratione inventore cumque quos magni.</p>
+                </div>
+                <div>
+                    <img src="./img/css-3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe earum omnis cupiditate doloremque beatae facilis illo perferendis laborum pariatur dolore.</p>
+                </div>
+                <div>
+                    <img src="./img/bootstrap-logo.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quia dolor soluta nihil ducimus laborum pariatur impedit, aspernatur quod exercitationem!</p>
+                </div>
+                <div>
+                    <img src="./img/sass.png" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias dicta repellendus aliquam rerum ipsum soluta rem sequi, voluptas ratione reprehenderit.</p>
+                </div>
+                <div>
+                    <img src="./img/js.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque vel, beatae reiciendis sed nihil recusandae eligendi. Modi, fugiat ratione.</p>
+                </div>
+                <div>
+                    <img src="./img/react.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit ut quo deserunt officia. Eveniet aperiam cum qui rem similique.</p>
+                </div>
+                <div>
+                    <img src="./img/github.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolores minus sint recusandae quisquam expedita facilis veritatis deserunt amet ut!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodologia">
+            <h2>Metodología:</h2>
+            <div class="metodologia">
+                <div >
+                    <h2>Concepto</h2>
+                    <img src="./img/idea.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ullam qui neque id delectus quo animi reprehenderit minus inventore quasi?</p>
+                </div>
+                <div>
+                    <h2>Wireframe</h2>
+                    <img src="/img/prototype2.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ullam qui neque id delectus quo animi reprehenderit minus inventore quasi?</p>
+                </div>
+                <div>
+                    <h2>MVP</h2>
+                    <img src="/img/mvp2.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ullam qui neque id delectus quo animi reprehenderit minus inventore quasi?</p>
+                </div>
+                <div>
+                    <h2>Trabajo final</h2>
+                    <img src="/img/product2.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ullam qui neque id delectus quo animi reprehenderit minus inventore quasi?</p>
+                </div>
+            </div>
+        </section>
+
     </main>
+
     <footer id="contacto">
         <a href="https://www.instagram.com/" target="_blank"><img src="/img/instagram.png" alt="Instagram logo"></a>
         <a href="https://www.gmail.com/" target="_blank"><img src="/img/gmail.png" alt="Gmail logo"></a>
         <a href="https://github.com/" target="_blank"><img src="/img/GitHub-Mark-64px.png" alt="GitHub logo"></a>
+        <a href="https://facebook.com" target="_blank"><img src="/img/facebook.png" alt="Facebook logo"></a>
+        <a href="https://wa.link/gu29lf" target="_blank"><img src="/img/whatsapp.png" alt="Whatsapp logo"></a>
+        <a href="https://linkedin.com" target="_blank"><img src="/img/linkedin.png" alt="Linkedin logo"></a>
     </footer>
+
 </body>
 </html>
