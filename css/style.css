@@ -404,30 +404,8 @@ footer img:hover {
     }
 }
 
-
-@media screen and (max-width: 1380px) {
-    #metodologia img {
-        
-    }
-}
-
-@media screen and (min-width: 920px) and (max-width: 1400px) {
-    #inicio {
-        font-size: 1.55em;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    * {
-        font-size: 0.9em;
-}
-}
-
 @media screen and (min-width:860px) and (max-width: 1400px) {
-    * {
-    
-}
-h2 {
+    h2 {
     font-size: 2em;
 }
 .perfil-data div {
@@ -473,13 +451,24 @@ h2 {
 .metodologia {
     /* flex-wrap: wrap; */
     width: 80%;
-    
     font-size: 1.5em;
 }
-.metodologia p {
-    
+}
+
+
+@media screen and (min-width: 920px) and (max-width: 1400px) {
+    #inicio {
+        font-size: 1.55em;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    * {
+    font-size: 0.9em;
 }
 }
+
+
 
 
 @media screen and (min-width:600px) and (max-width: 860px) {
@@ -488,16 +477,12 @@ h2 {
         width: 90%;
         height: 60%;
         font-size: 1.5em;
-
     }
-    
     .trabajos {
         width: 250px;
         height: 250px;
         font-size: 0.8em;
     }
-
-
     .metodologia {
         flex-wrap: wrap;
         width: 90%;
@@ -514,7 +499,29 @@ h2 {
         height: 32px;
         padding: 1px;
     }
+    .herramientas-container {
+        height: 84%;
+        width: 80%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .herramientas-container div {
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+    .herramientas-container p {
+        font-size: 2.3em;
+        padding: 15px;
+    }
 }
+
+
 
 
 @media screen and (max-width: 860px) {
@@ -528,11 +535,9 @@ h2 {
     display: flex;
     flex-direction: column;
     font-size: 1.5em;
-    
 }
 .perfil-data {
     padding-top: 150px;
-    
 }
 .perfil-data div {
     height: 80%;
@@ -554,13 +559,12 @@ h2 {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    
 }
 .herramientas-container div {
     display: flex;
     align-items: center;
     justify-content: baseline;
-    width: 400px;
+    width: 100%;
     height: auto;
     padding: 5px;
 }
@@ -576,7 +580,6 @@ h2 {
     flex-wrap: wrap;
     width: 80%;
     font-size: 2.5em;
-    
 }
 
 #metodologia img {
@@ -595,29 +598,7 @@ footer a img{
 }
 
 
-@media screen and (min-width:600px) and (max-width:860px) {
-    .herramientas-container {
-    height: 84%;
-    width: 80%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.herramientas-container div {
-    display: flex;
-    align-items: center;
-    justify-content: baseline;
-    width: 100%;
-    height: auto;
-    padding: 5px;
-}
-.herramientas-container p {
-    font-size: 2.3em;
-    padding: 15px;
-    
-}
-}
+
 
 
 
