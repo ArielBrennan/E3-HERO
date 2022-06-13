@@ -107,7 +107,7 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
     padding: 40px;
-    width: 45%;
+    width: 65%;
     margin-top: 50px;
 }
 .perfil h1{
@@ -246,7 +246,7 @@ body {
     backdrop-filter: blur(30px) saturate(200%);
     column-gap: 20px;
     height: 55%;
-    width: 80%;
+    width: 65%;
     border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     border-radius: 20px;
@@ -308,7 +308,7 @@ body {
     border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     border-radius: 20px;
-    width: 75%;
+    width: 65%;
     height: 55%;
     display: flex;
     align-items: center;
@@ -431,7 +431,7 @@ h2 {
     font-size: 2em;
 }
 .perfil-data div {
-    width: 90%;
+    width: 80%;
     height: 60%;
     font-size: 1.5em;
 }
@@ -441,8 +441,8 @@ h2 {
     font-size: 1.05em;
 }
 .herramientas-container {
-    height: 100%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -450,9 +450,9 @@ h2 {
 .herramientas-container div {
     display: flex;
     align-items: center;
-    justify-content: baseline;
-    width: 90%;
-    height: 90%;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
     padding: 5px;
 }
 .herramientas-container p {
@@ -460,20 +460,24 @@ h2 {
     padding: 15px;
 }
 .herramientas-container img {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 #metodologia div {
     height: auto;
 }
+#metodologia img {
+    height: 100px;
+    width: auto;
+}
 .metodologia {
-    flex-wrap: wrap;
-    width: 90%;
+    /* flex-wrap: wrap; */
+    width: 80%;
     
     font-size: 1.5em;
 }
 .metodologia p {
-    width: 40%;
+    
 }
 }
 
@@ -496,7 +500,7 @@ h2 {
 
     .metodologia {
         flex-wrap: wrap;
-        width: 70%;
+        width: 90%;
     }
     #metodologia img {
         width: auto;
@@ -513,7 +517,7 @@ h2 {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
 * {
     font-size: 0.8em; 
 }
@@ -570,9 +574,17 @@ h2 {
 
 .metodologia {
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     font-size: 2.5em;
     
+}
+
+#metodologia img {
+    height: 100px;
+    width: auto;
+}
+#metodologia  {
+    font-size: 0.9em;
 }
 
 footer a img{
@@ -585,8 +597,8 @@ footer a img{
 
 @media screen and (min-width:600px) and (max-width:860px) {
     .herramientas-container {
-    height: auto;
-    width: 90%;
+    height: 84%;
+    width: 80%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -601,7 +613,7 @@ footer a img{
     padding: 5px;
 }
 .herramientas-container p {
-    font-size: 1.8em;
+    font-size: 2.3em;
     padding: 15px;
     
 }
