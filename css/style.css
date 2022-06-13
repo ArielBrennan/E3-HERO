@@ -21,15 +21,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
                                 /* HEADER */
 
 
@@ -68,21 +59,6 @@ body {
 .portfolio-nav ul li a:hover {
     color: rgba(11, 9, 145, 0.9);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                                     /* SECCION PERFIL */
@@ -149,15 +125,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
                                 /* SECCION TRABAJOS */
 
 #trabajos{
@@ -212,20 +179,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             /* SECCION HERRAMIENTAS */
 
 #herramientas {
@@ -273,19 +226,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                                       /* SECCION METODOLOGIA */
 
 #metodologia {
@@ -327,25 +267,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 /* SECCION CONTACTO-FOOTER */
 
 #contacto {
@@ -373,25 +294,6 @@ footer img:hover {
     border-radius: 10px;
     transform:scale(1.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -455,7 +357,6 @@ footer img:hover {
 }
 }
 
-
 @media screen and (min-width: 920px) and (max-width: 1400px) {
     #inicio {
         font-size: 1.55em;
@@ -467,8 +368,6 @@ footer img:hover {
     font-size: 0.9em;
 }
 }
-
-
 
 
 @media screen and (min-width:600px) and (max-width: 860px) {
@@ -520,8 +419,6 @@ footer img:hover {
         padding: 15px;
     }
 }
-
-
 
 
 @media screen and (max-width: 860px) {
@@ -596,26 +493,6 @@ footer a img{
     padding: 1px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
