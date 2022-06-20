@@ -1,8 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    scroll-behavior:smooth;
     color: whitesmoke;
     font-family: 'start';
 }
@@ -59,6 +61,12 @@ body {
 .portfolio-nav ul li a:hover {
     color: rgba(11, 9, 145, 0.9);
 }
+.logo {
+        width: 180px;
+        align-self: center;
+        margin-top: 25px;
+        
+}
 
 
                                     /* SECCION PERFIL */
@@ -83,7 +91,7 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
     padding: 40px;
-    width: 65%;
+    width: 70%;
     margin-top: 50px;
 }
 .perfil h1{
@@ -248,7 +256,7 @@ body {
     border: 1px solid rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
     border-radius: 20px;
-    width: 65%;
+    width: 70%;
     height: 55%;
     display: flex;
     align-items: center;
@@ -265,6 +273,50 @@ body {
     align-items: center;
     padding: 10px;
 }
+
+                                  /* SECCION CLIENTES */
+
+#clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    height: 100%;
+    margin-bottom: 150px;
+}
+#clientes img {
+    width: 50%;
+}
+.clientes {
+    border: 1px solid rgba(0, 0, 0, .25);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(15px);
+    padding: 40px 20px;
+    margin-top: 200px;
+}
+
+
+.clientes div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.clientes div div{
+    
+    
+}
+                                
+
+
 
 
                                 /* SECCION CONTACTO-FOOTER */
@@ -303,6 +355,10 @@ footer img:hover {
 @media screen and (min-width: 1400px) {
     .trabajos {
         font-size: 1.1em;
+    }
+    .herramientas-container div {
+        font-size: 1em;
+        width: 70%;
     }
 }
 
@@ -355,6 +411,18 @@ footer img:hover {
     width: 80%;
     font-size: 1.5em;
 }
+#clientes div {
+    height: auto;
+}
+#clientes img {
+    width: 60%;
+    
+}
+.clientes {
+    width: 80%;
+    flex-direction: row;
+    
+}
 }
 
 @media screen and (min-width: 920px) and (max-width: 1400px) {
@@ -393,6 +461,15 @@ footer img:hover {
     #metodologia p {
         width: 40%;
     }
+    .clientes {
+        
+        flex-direction: row;
+        width: 90%;
+    }
+    #clientes img {
+        
+    }
+
     footer a img{
         width: 32px;
         height: 32px;
@@ -484,6 +561,18 @@ h2 {
     width: auto;
 }
 #metodologia  {
+    font-size: 0.9em;
+}
+.clientes {
+    display: flex;
+    
+    width: 80%;
+}
+
+#clientes img {
+    width: 75%;
+}
+#clientes  {
     font-size: 0.9em;
 }
 
