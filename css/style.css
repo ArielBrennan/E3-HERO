@@ -12,7 +12,6 @@ html {
     font-family: 'start';
     src: url(/font/Roboto-Black.ttf);
 }
-
 body {
     background-image: url(/img/pexels-neo-2653362.jpg);
     background-color: #636564;
@@ -23,10 +22,7 @@ body {
     
 }
 
-
-
                                 /* HEADER */
-
 
 #inicio {
     background-color: rgba(255, 255, 255, .45);
@@ -67,19 +63,15 @@ body {
         width: 180px;
         align-self: center;
         margin-top: 25px;
-        
 }
-
-
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+                                    /* SECCION PERFIL */      
 
-                                    /* SECCION PERFIL */
-                            
 .perfil-data {
     display: flex;
     justify-content: center;
@@ -88,7 +80,6 @@ main {
     padding-top: 150px;
     height: 100vh;
 }
-
 .perfil-data > div {
     display: flex;
     padding: 40px;
@@ -102,16 +93,12 @@ main {
     justify-content: space-evenly;
     align-self: flex-start;
 } 
-
-
-
 .perfil-data div div {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     padding: 40px;
     width: 70%;
-
 }
 .perfil h1 {
     font-weight: bold;
@@ -124,9 +111,6 @@ main {
     width:0px;
     
 }
-
-
-
 .perfil a {
     align-self: center;
     text-decoration: none;
@@ -154,13 +138,10 @@ main {
     border-color: transparent;
     }
 }
-
 .perfil-img {
     max-height: 100%;
     border-radius: 5px;
 }
-
-
 
                                 /* SECCION TRABAJOS */
 
@@ -180,12 +161,10 @@ main {
 #trabajos h2 {
     padding-top: 150px;
 }
-
 .grid-container {
     display: flex;
     justify-content: center;
 }
-
 .trabajos-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -213,7 +192,6 @@ main {
     font-weight: 600;
     filter: grayscale(0.4);
 }
-
 .trabajos h3 {
     text-transform: uppercase;
     text-align: center;
@@ -222,25 +200,19 @@ main {
     text-transform: uppercase;
     text-align: center;
 }
-
 .trabajos img {
     max-width: 100%;
 }
-
 .trabajos:hover {
     filter: grayscale(0);
 }
-
 .oscuro {
     opacity: 100%;
     text-align: center;
 }
-
 .oscuro:hover {
     filter: grayscale(0);
 }
-
-
 
                             /* SECCION HERRAMIENTAS */
 
@@ -261,8 +233,6 @@ main {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
-
 .herramientas-container {
     display: flex;
     align-items: baseline;
@@ -281,7 +251,6 @@ main {
     flex-direction: column;
     height: 100%;
     justify-content: baseline;
-    
     font-size: 1.1em;
     
 }
@@ -290,14 +259,11 @@ main {
     height: auto;
     margin-bottom: 5%;
 }
-
 .herramientas-container p {
     color: rgba(0, 0, 0, .9);
     font-weight: 600;
-    
+    font-size: 1.1em;
 }
-
-
 
                                       /* SECCION METODOLOGIA */
 
@@ -305,14 +271,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     row-gap: 200px;
     height: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-#metodologia p {
-    font-weight: 600;
 }
 #metodologia img {
     width: auto;
@@ -331,7 +293,6 @@ main {
     font-size: 1.1em;
     padding: 40px 20px;
 }
-
 .metodologia div {
     display: flex;
     flex-direction: column;
@@ -366,8 +327,6 @@ main {
     backdrop-filter: blur(15px);
     padding: 40px 20px;
 }
-
-
 .clientes div {
     display: flex;
     flex-direction: column;
@@ -375,13 +334,6 @@ main {
     align-items: center;
     padding: 10px;
 }
-.clientes div div{
-    
-    
-}
-                                
-
-
 
                                     /* SECCION CONTACTO */
 
@@ -397,9 +349,7 @@ main {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
 .contacto-container {
-
     border-radius: 20px;
     padding: 2em;
     display: flex;
@@ -417,27 +367,17 @@ main {
     justify-content: space-around;
     height: 50%;
 }
-
-
 .contacto-container h4 {
     font-size: 1.6em;
 }
 .contacto-container p {
     font-size: 1.1em;
 }
-
-
 iframe {
     width: 400px;
     height: 300px;
     border-radius: 20px;
 }
-
-
-
-
-
-
 
                                 /* SECCION FOOTER */
 
@@ -467,11 +407,8 @@ footer img:hover {
     transform:scale(1.2);
 }
 
-
-
-
-
                                     /* MEDIA QUERIES */
+
 
 @media screen and (min-width: 1400px) {
     .trabajos {
@@ -483,22 +420,30 @@ footer img:hover {
     }
 }
 
-@media screen and (min-width:860px) and (max-width: 1400px) {
+/* desde 768px hasta ---> 1400px */
+
+@media screen and (min-width:768px) and (max-width: 1400px) {
     h2 {
     font-size: 2em;
 }
 .perfil-data > div {
-    width: 80%;
+    width: 90%;
     height: 60%;
     font-size: 1.5em;
 }
 .perfil-img {
     height: 90%;
 }
+#trabajos {
+    width: 90%;
+}
 .trabajos {
     width: 300px;
     height: 300px;
     font-size: 1.05em;
+}
+#herramientas {
+    width: 90%;
 }
 .herramientas-container {
     height: 80%;
@@ -531,8 +476,7 @@ footer img:hover {
     width: auto;
 }
 .metodologia {
-    /* flex-wrap: wrap; */
-    width: 80%;
+    width: 90%;
     font-size: 1.5em;
 }
 #clientes div {
@@ -540,14 +484,36 @@ footer img:hover {
 }
 #clientes img {
     width: 60%;
-    
 }
 .clientes {
-    width: 80%;
+    width: 90%;
     flex-direction: row;
-    
+}
+footer a img{
+    width: 46px;
+    height: 46px;
+    padding: 1px;
+}
+#contacto {
+    width: 90%;
+}
+iframe {
+    width: 220px;
+    height: 165px;
+    border-radius: 10px;
+}
+#footer {
+    width: 100%;
+    height: 60px;
+}
+.logo {
+    width: 160px;
+    align-self: center;
+    margin-top: 20px;
 }
 }
+
+
 
 @media screen and (min-width: 920px) and (max-width: 1400px) {
     #inicio {
@@ -555,77 +521,19 @@ footer img:hover {
     }
 }
 
+
+
 @media screen and (max-width: 1400px) {
     * {
     font-size: 0.9em;
 }
-}
+} 
 
+                                                /* hasta ---> 768px */
 
-@media screen and (min-width:600px) and (max-width: 860px) {
-    
-    .perfil-data > div {
-        width: 90%;
-        height: 60%;
-        font-size: 1.5em;
-    }
-
-    .trabajos {
-        width: 250px;
-        height: 250px;
-        font-size: 0.8em;
-    }
-    .metodologia {
-        flex-wrap: wrap;
-        width: 90%;
-    }
-    #metodologia img {
-        width: auto;
-        height: 180px;
-    }
-    #metodologia p {
-        width: 40%;
-    }
-    .clientes {
-        
-        flex-direction: row;
-        width: 90%;
-    }
-    #clientes img {
-        
-    }
-
-    footer a img{
-        width: 32px;
-        height: 32px;
-        padding: 1px;
-    }
-    .herramientas-container {
-        height: 84%;
-        width: 80%;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .herramientas-container div {
-        display: flex;
-        align-items: center;
-        justify-content: baseline;
-        width: 100%;
-        height: auto;
-        padding: 5px;
-    }
-    .herramientas-container p {
-        font-size: 2.3em;
-        padding: 15px;
-    }
-}
-
-
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
 * {
-    font-size: 0.8em; 
+    font-size: 0.75em; 
 }
 h2 {
     font-size: 2em;
@@ -641,17 +549,15 @@ h2 {
 .perfil-data > div {
     height: 80%;
     width: 90%;
-    font-size: 2.7em;
+    font-size: 3em;
 }
 .perfil-data div div {
     width: 100%;
 }
-
 .logo {
     display: none;
 
 }
-
 .perfil-img {
     display: none;
 }
@@ -663,7 +569,6 @@ h2 {
 .trabajos {
     width: 90%;
     height: 100%;
-    
     font-size: 1.5em;
     padding: 20px;
 }
@@ -693,25 +598,23 @@ h2 {
     padding: 5px;
 }
 .herramientas-container p {
-    font-size: 2.2em;
+    font-size: 2.5em;
     padding: 10px;
 }
 .herramientas-container img {
     width: 50px;
 }
-
 .metodologia {
     flex-wrap: wrap;
     width: 90%;
     font-size: 2.5em;
 }
-
 #metodologia img {
     height: 100px;
     width: auto;
 }
 #metodologia  {
-    font-size: 0.9em;
+    font-size: 1em;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -720,7 +623,6 @@ h2 {
     
     width: 90%;
 }
-
 #clientes img {
     width: 75%;
 }
@@ -729,46 +631,38 @@ h2 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 #contacto {
     width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.contacto-container {
-    
-}
 .contacto-container > div {
-    
     margin-right: 10px;
     width: 80%;
 }
 .contacto-container div div {
     margin-right: 5px;
 }
-
-
 .contacto-container h4 {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
 }
 .contacto-container p {
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
-
 iframe {
     width: 160px;
     height: 120px;
     border-radius: 10px;
 }
-
-
-
-
+#footer {
+    width: 100%;
+    height: 40px;
+}
 footer a img{
-    width: 32px;
-    height: 32px;
-    padding: 1px;
+    width: 15px;
+    height: 15px;
+    padding: 0.5px;
 }
 }
 
